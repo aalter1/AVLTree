@@ -1,0 +1,5 @@
+add_test( [==[Insert randomly and print level count every 5 inserts]==] A:/PChw/clion-p1dsadesk/clion-p1adandesk/cmake-build-debug/Tests.exe [==[Insert randomly and print level count every 5 inserts]==]  )
+set_tests_properties( [==[Insert randomly and print level count every 5 inserts]==] PROPERTIES WORKING_DIRECTORY A:/PChw/clion-p1dsadesk/clion-p1adandesk/cmake-build-debug)
+add_test( [==[Insert many nodes, print all traversals, and check level count]==] A:/PChw/clion-p1dsadesk/clion-p1adandesk/cmake-build-debug/Tests.exe [==[Insert many nodes\, print all traversals\, and check level count]==]  )
+set_tests_properties( [==[Insert many nodes, print all traversals, and check level count]==] PROPERTIES WORKING_DIRECTORY A:/PChw/clion-p1dsadesk/clion-p1adandesk/cmake-build-debug)
+set( Tests_TESTS [==[Insert randomly and print level count every 5 inserts]==] [==[Insert many nodes, print all traversals, and check level count]==])
